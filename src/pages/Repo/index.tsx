@@ -2,6 +2,7 @@ import React from "react";
 import { Link, useRouteMatch } from "react-router-dom";
 import { FiChevronLeft, FiChevronRight } from "react-icons/fi";
 
+import { api } from "../../services/api";
 import { Header, RepoInfo, Issues } from "./styles";
 import logo from "../../assets/logo.svg";
 
@@ -11,6 +12,16 @@ interface RepositoryParams {
 
 export const Repo: React.FC = () => {
   const { params } = useRouteMatch<RepositoryParams>();
+
+  React.useEffect(() => {
+    api
+      .get(`repos/${params.repository}`)
+      .then((response) => console.log(response.data));
+
+    api
+      .get(`repos/${params.repository}/issues`)
+      .then((response) => console.log(response.data));
+  }, [params.repository]);
   return (
     <>
       <Header>
