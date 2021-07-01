@@ -1,6 +1,6 @@
-# Big Game Survey
+# GitCollection
 
-[![NPM](https://img.shields.io/npm/l/react)](https://github.com/TiagoSilvaLourenco/exemplo-Readme/blob/main/LICENSE)
+[![NPM](https://img.shields.io/npm/l/react)](https://github.com/TiagoSilvaLourenco/gitcollection/blob/main/LICENSE)
 
 # Sobre o projeto
 
