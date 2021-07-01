@@ -4,7 +4,7 @@
 
 # Sobre o projeto
 
-https://wmazoni-sds1.netlify.app
+https://tslgitcollection.netlify.app
 
 GitCollection é uma aplicação web spa responsiva construída seguindo o **Curso Prático React e Next.js Essencial com Typescript** (#sds1), na plataforma Udemy [Udemy](https://www.udemy.com/course/curso-pratico-react-e-nextjs-essencial-com-typescript/#instructor-1 "Site da Udemy").
 
@@ -12,9 +12,10 @@ A aplicação consiste em uma pesquisa de repositórios no Github, onde os dados
 
 ## Layout web
 
-![Web 1]()
+![Web 1](<https://raw.githubusercontent.com/TiagoSilvaLourenco/gitcollection/main/src/assets/raw/img/tslgitcollection.netlify.app_%20(2).png>)
 
-![Web 2]()
+![Web 2](<https://raw.githubusercontent.com/TiagoSilvaLourenco/gitcollection/main/src/assets/raw/img/tslgitcollection.netlify.app_%20(3).png>)
+![Web 3](<https://raw.githubusercontent.com/TiagoSilvaLourenco/gitcollection/main/src/assets/raw/img/tslgitcollection.netlify.app_%20(4).png>)
 
 # Tecnologias utilizadas
 
